@@ -285,8 +285,8 @@ function checkForDuplicateCesium() {
 }
 
 gulp.task("terriajs-server", function (done) {
-  // E.g. gulp terriajs-server --terriajsServerArg port=4000 --terriajsServerArg verbose=true
-  //  or gulp dev --terriajsServerArg port=3000
+gulp terriajs-server --terriajsServerArg port=4000 --terriajsServerArg verbose=true
+or gulp dev --terriajsServerArg port=3000
   const { spawn } = require("child_process");
   const minimist = require("minimist");
   // Arguments written in skewer-case can cause problems (unsure why), so stick to camelCase
